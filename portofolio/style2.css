@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.nama{
+    position: relative;
+    margin-right: 60%;
+    top : 30%;
+    left: 15%;
+}
+
+.foto{
+    float: right;
+    position: relative;
+    right: 13%;
+    bottom: 33.7%;
+}
+
+h2{
+    text-align: center;
+    cursor:default;
+}
+
+h1{
+    text-align: center;  
+    cursor: default;
+}
+
+p{
+    text-align: center;
+    cursor: default;
+}
+
+.button{
+    position: relative;
+    text-align: center;
+    margin: 40px;
+}
+
+button{
+    color: black;
+    background-color:aquamarine;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 768px){
+
+    img{
+        display: none;
+    }
+
+    .nama{
+        font-size: 15px;
+        border: 1px solid black;
+        margin-right: 30%;
+        position: relative;
+    }
+    
+    button{
+        cursor: pointer;
+    }
+}
